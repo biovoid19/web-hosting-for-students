@@ -1,0 +1,60 @@
+/* Estilos de la imagen principal */
+.main-img{
+    height:62vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+/* image's source */
+#inicio{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/students-programming.jpg');
+}
+
+
+#u1{
+    background-image:url('/img/1.png');
+}
+#u2{
+    background-image:url('/img/2.png');
+}
+#u3{
+    background-image:url('/img/3.png');
+}
+#u4{
+    background-image:url('/img/4.png');
+}
+#u5{
+    background-image:url('/img/9.png');
+}
+
+/* Estilos de las universidades asociadas (página de inicio) */
+.school-partners{
+    height: 8vh;
+    width: 24vh;
+    filter: grayscale(100%);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+
+footer{
+background-color: #eeeeee;
+color: #5f5f5f;
+font-size: small
+}
+
+footer div div ul{
+    list-style-type: none;
+}
+
+.footer-link{
+    text-align: center;
+    width: 8rem;
+}
+
+#tag{
+    font-size: smaller;
+    color:#cccccc;
+}
