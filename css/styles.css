@@ -17,6 +17,10 @@
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12vh;
+    margin-right: 8vh;
 }
 
 
