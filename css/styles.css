@@ -6,11 +6,25 @@
     background-position:center center;
 }
 
+/* Estilos de las universidades asociadas (página de inicio) */
+.school-partners{
+    height: 8vh;
+    width: 24vh;
+    filter: grayscale(100%);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+
 /* image's source */
 #inicio{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/students-programming.jpg');
 }
 
+#learn{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/learn-web-hosting.jpg');
+}
 
 #u1{
     background-image:url('/img/1.png');
@@ -28,15 +42,6 @@
     background-image:url('/img/9.png');
 }
 
-/* Estilos de las universidades asociadas (página de inicio) */
-.school-partners{
-    height: 8vh;
-    width: 24vh;
-    filter: grayscale(100%);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center;
-}
 
 
 footer{
