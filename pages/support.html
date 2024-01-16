@@ -1,61 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Suespacio.net | Support</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <!-- css -->
-        <link rel="stylesheet" href="/css/styles.css">
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Suespacio.net | Students</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- Inicio de sección del nav -->
+    <header>
+      <nav id="nav"></nav>
+    </header>
+    <!-- Fin de sección de nav -->
 
-        <!-- Inicio de sección del nav -->
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/index.html">
-                        <img src="/img/logo.png" alt="Suespacio.net" height="60">
-                    </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-                    <ul class="navbar-nav d-flex">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/pages/schools.html">Schools</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/pages/teachers.html">Teachers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/pages/students.html">Students</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/pages/learn.html">Learn</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="/pages/support.html">Support</a>
-                        </li>
-                    </ul>
-                    <a href="https://wa.me/+527773407204" target="_blank" role="button" class="btn btn-success">Contáctanos</a>
-                  </div>
-                </div>
-            </nav>
-        </header>
-        <!-- Fin de sección de nav -->
+    <!-- Inicio de imagen principal -->
+    <div
+      class="main-img container-fluid d-flex justify-content-center align-items-center"
+      id="support"
+    >
+      <div class="row text-center">
+        <div class="col-md-12 text-img">
+          <h1>¡El Soporte Que Necesitas!</h1>
+        </div>
+      </div>
+    </div>
 
+    <!-- Fin de imagen principal -->
 
-        <!-- Script js -->
-        <script src="/js/app.js"></script>
-        <!-- Scripts bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"></script>
-    </body>
+    <!-- Inicio del contenido -->
+    <div class="container">
+      <br /><br /><br />
+      <div class="mx-auto text-student">
+        <h2><strong>Tus 10 Problemas Principales Resueltas!</strong></h2>
+        <p>
+            Aquí hay algunas soluciones para los problemas más comúnes que tienen los estudiantes al crear sus cuantas de hosting:
+        </p>
+        <div>
+            <ul class="menu-link">
+                <li><a href="#">No recibí mi correo de Inicio de Sesión</a></li>
+                <li><a href="#">¿Cómo actualizar tu DNS?</a></li>
+                <li><a href="#">¿Cómo configurar nombres de dominio desde otras compañias?</a></li>
+                <li><a href="#">Cómo alojar varios sitios</a></li>
+                <li><a href="#">My New Site Doesn’t Load!</a></li>
+                <li><a href="#">¿Cómo resetear una contraseña de cPanel?</a></li>
+                <li><a href="#">Información sobre FTP, SFTP y SSH</a></li>
+                <li><a href="#">Hacked Website Help</a></li>
+                <li><a href="#">Respaldos y restaurar cuentas</a></li>
+                <li><a href="#">Ascensos, descensos, cancelaciones & reembolsos</a></li>
+              </ul>
+        </div>
+
+        <h2 class="h2-student">¿Te fue útil?</h2>
+        <p>
+            Si estas soluciones no resolvieron tu problema , <a href="">abre un ticket de soporte</a>.
+        </p>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <!-- Fin del contenido -->
+
+    <!-- footer -->
+    <footer id="footer"></footer>
+    <!-- end footer -->
+
+    <!-- Script js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/app.js"></script>
+    <!-- Scripts bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

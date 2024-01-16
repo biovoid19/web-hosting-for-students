@@ -29,6 +29,14 @@
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/student.jpg');
 }
 
+#school{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/school.jpg');
+}
+
+#support{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/soporte.jpg');
+}
+
 #teachers{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/teacher.jpg');
 }
@@ -254,3 +262,38 @@ footer div div ul{
     color: #353535;
 }
 
+
+.school-text1{
+    margin-bottom: 32px;
+}
+
+.school-img{
+    margin-bottom: 32px;
+}
+
+.school-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .school-logo {
+    filter: grayscale(100%);
+  }
+
+  .contenedor {
+    display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-link {
+    list-style-type: none;
+}
+
+.menu-link-li {
+    color: #016c65;
+}
