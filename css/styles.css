@@ -26,11 +26,11 @@
 
 /* image's source */
 #inicio{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/students-programming.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/student.jpg');
 }
 
-#learn{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/learn-web-hosting.jpg');
+#teachers{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/teacher.jpg');
 }
 
 #u1{
@@ -72,15 +72,30 @@ footer div div ul{
 }
 
 /* css de student y teachets */
+
+.text-img{
+    color: white;
+    font-size: 38px;
+
+}
 .columna{
     width: 20rem;
-    padding-left:40px ;
-    padding-right: 40px;
+    padding-left:35px ;
+    padding-right: 35px;
 }
 
+.columna h2{
+    font-size: 40px;
+}
+.columna h6{
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
 .columna  li{
     font-size: 18px;
 }
+
 
 
 
@@ -96,8 +111,8 @@ footer div div ul{
     border-color: black;
     padding-top: 20px;
     padding-bottom: 10px;
-    width: 85%;
-    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
 }
         
 .boton{
@@ -123,6 +138,25 @@ footer div div ul{
     border: 1px solid #b6b6b6; 
     margin-bottom: 10px;
 }
+
+.text-student{
+    width: 50rem;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .text-student {
+        width: 100%;
+    }
+  }
+  
+  /* Media query para pantallas muy pequeñas */
+  @media (max-width: 576px) {
+    .text-student {
+        width: 100%;
+    }
+  }
+
 
 .h2-student{
     padding-top: 30px;
@@ -150,13 +184,10 @@ footer div div ul{
 }
 .contenedor-verde  .derecha {
     padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 50px;
+    align-items: center;
     background-color: #353535;
-
-
+    width: 40rem;
 }
-
 
 
 .host-free {
@@ -182,10 +213,37 @@ footer div div ul{
     padding-right: 20px;
 }
 
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .host-free {
+        width: 80%;
+    }
+  }
+  
+  /* Media query para pantallas muy pequeñas */
+  @media (max-width: 576px) {
+    .host-free {
+        width: 80%;
+    }
+  }
+
 .text-teachers{
     width: 50rem;
-
 }
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .text-teachers {
+        width: 100%;
+    }
+  }
+  
+  /* Media query para pantallas muy pequeñas */
+  @media (max-width: 576px) {
+    .text-teachers {
+        width: 100%;
+    }
+  }
 
 .text-teachers h2{
     font-size: 28px;
