@@ -1,0 +1,46 @@
+<!-- footer -->
+<footer>
+    <br>
+    <div class="container-fluid text-center">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8 ">
+                <ul class="list-group list-group-horizontal justify-content-md-center">
+                    <li class="footer-link">
+                        <a href="/pages/support.html" class="nav-link text-center">Ayuda & Soporte</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="/pages/learn.html" class="nav-link active text-center">Aprende Web Hosting</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="/pages/about_us.html" class="nav-link text-center">Acerca de Nosotros</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="/pages/contact_us.html" class="nav-link text-center">Contáctanos</a>
+                    </li>
+                    <li class="footer-link">
+                        <a href="/pages/terms_n_conditions.html" class="nav-link text-center">Términos & Condciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-md-center">
+            <div class="col-md-3">
+                <span>&copy; <span id="currentYear"></span> Web Hosting for students</span>
+                
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <span id="tag">Void was here</span>
+        </div>
+        <br><br>
+    </div>
+</footer>
+<!-- end footer -->
+
+<!-- current year -->
+<script>
+    var yearElement = document.getElementById("currentYear");
+    var currentYear = new Date().getFullYear();
+    yearElement.textContent = currentYear;
+</script>
