@@ -70,3 +70,129 @@ footer div div ul{
     font-size: smaller;
     color:#cccccc;
 }
+
+/* css de student y teachets */
+.columna{
+    width: 20rem;
+    padding-left:40px ;
+    padding-right: 40px;
+}
+
+.columna  li{
+    font-size: 18px;
+}
+
+
+
+.borde-grueso {
+    border: 5px solid #016C65 ; 
+    }
+
+#students{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/students-programming.jpg');
+}
+
+.hr-line{
+    border-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 85%;
+    margin: auto;
+}
+        
+.boton{
+    background-color: #016C65;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 24px; 
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #02645e; 
+    margin-bottom: 10px;
+}
+
+.botones{
+    color: #676767;
+    background-color: #bbbbbb;
+    display: inline-block;
+    padding: 10px 20px; 
+    font-size: 24px; 
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #b6b6b6; 
+    margin-bottom: 10px;
+}
+
+.h2-student{
+    padding-top: 30px;
+}
+.p-student{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 24px;
+}
+
+
+.contenedor-verde{
+    background-color: #016c65; 
+    color: white;
+
+}
+
+.contenedor-verde h2 strong{
+    font-size: 38px;
+}
+.contenedor-verde ul li {
+    font-size:16px;
+    line-height:1.8
+
+}
+.contenedor-verde  .derecha {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    background-color: #353535;
+
+
+}
+
+
+
+.host-free {
+    margin-top: 50px;
+    width: 35%;
+    background-color: #f7f7f7;
+    text-align: center;
+    border-radius: 3px;
+    border: #02645e 3px dashed;
+}
+
+.host-free .title{
+    font-size: 28px;
+    margin-top: 30px;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+.host-free .text{
+    font-size: 17px;
+    margin-bottom: 32px;
+    padding-top: 10px;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+.text-teachers{
+    width: 50rem;
+
+}
+
+.text-teachers h2{
+    font-size: 28px;
+    padding: 42px 0px 14px;
+}
+.text-teachers p{
+    font-size: 17px;
+    color: #353535;
+}
+
